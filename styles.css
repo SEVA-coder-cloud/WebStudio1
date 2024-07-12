@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    margin-left: 215px;
+    white-space: nowrap;
+    position: relative;
+    top: 32px;
+    display: flex;
+}
+
+.header * {
+    display: inline-block;
+}
+
+.menu {
+    margin-top: 0px;
+    margin-right: 344px;
+    margin-left: 93px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo1 {
+    color: #2196F3;
+    font-size: 26px;
+    margin-top: -8px;
+}
+
+.logo2 {
+    color: black;
+    font-size: 26px;
+    margin-top: -8px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #212121;
+    left: 453px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    left: 453px;
+}
+
+li.menu-item {
+    margin: 0 0 50px 0;
+}
+
+.menu a:hover {
+    color: #2196F3;
+}
+
+.a1 {
+    color: #2196F3;
+    text-decoration: none;
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+.tel {
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    display: table;
+    margin-top: 32px;
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+}
+
+.big_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 45px;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.t9999 {
+    text-align: center;
+    display: inline-block;
+    width: 216px;
+    height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #2196F3;
+}
+
+.name {
+    font-size: 14px;
+    color: #212121;
+}
+
+.ab {
+    font-size: 14px;
+    color: #757575;
+}
+
+.main {
+    justify-content: center;
+    display: flex;
+    margin-top: 94px;
+    gap: 30px;
+
+}
+
+.rrtt {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    color: #212121;
+    font-size: 36px;
+}
+
+.fgf {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.containert2 {
+    margin-top: 94px;
+    width: 1600px;
+    height: 648px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background: #F5F4FA;
+}
+
+.cvc {
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
+}
+
+img {
+    Width: 270px;
+    Height: 260px;
+}
+
+table {
+    border: none;
+    border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: white;
+    color: #212121;
+    font-size: 16px;
+
+}
+
+.ivct {
+    color: #757575;
+
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+}
+
+.c3 {
+    margin-left: 215px;
+    margin-top: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.logo4 {
+    color: #2196F3;
+    font-size: 26px;
+}
+.logo5 {
+    color: white;
+    font-size: 26px;
+}
+.ryt{
+font-size: 14px;
+ color: #FFFFFF;
+
+}
+.tyu{
+    font-size: 14px;
+    color: #FFFFFF99;
+
+}
