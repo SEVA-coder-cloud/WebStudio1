@@ -2,6 +2,21 @@
 :root {
     --logo-color-blue: #2196F3;
 }
+:root {
+    --color-black: black;
+}
+:root {
+    --color-white: white;
+}
+:root {
+    --color-grey: grey;
+}
+:root {
+    --color-2er: #2F303A;
+}
+:root {
+    --color-34er: #F5F4FA;
+}
 
 body {
     margin: 0px;
@@ -35,7 +50,7 @@ body {
 }
 
 .logo2 {
-    color: black;
+    color:var(--color-black);
     font-size: 26px;
     margin-top: -8px;
 }
@@ -44,7 +59,7 @@ body {
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
-    color: #212121;
+    color:var(--color-black);
     left: 453px;
 }
 
@@ -59,18 +74,18 @@ li.menu-item {
 }
 
 .menu a:hover {
-    color: #2196F3;
+    color:var(--logo-color-blue);
 }
 
 .a1 {
-    color: #2196F3;
+    color:var(--logo-color-blue);
     text-decoration: none;
     margin-right: 32px;
     font-size: 14px;
 }
 
 .tel {
-    color: #757575;
+    color:var(--color-grey);
     text-decoration: none;
     font-size: 14px;
 }
@@ -80,7 +95,7 @@ li.menu-item {
     margin-top: 32px;
     width: 1600px;
     height: 600px;
-    background: #2F303A;
+    background:var(--color-2er);
 }
 
 .big_text {
@@ -89,7 +104,7 @@ li.menu-item {
     text-align: center;
     line-height: 45px;
     font-size: 44px;
-    color: #FFFFFF;
+    color:var(--color-white);
 }
 
 .t9999 {
@@ -98,19 +113,19 @@ li.menu-item {
     width: 216px;
     height: 50px;
     text-decoration: none;
-    color: #FFFFFF;
+    color:var(--color-white);
     font-size: 16px;
-    background-color: #2196F3;
+    background-color:var(--logo-color-blue);
 }
 
 .name {
     font-size: 14px;
-    color: #212121;
+    color:var(--color-black);
 }
 
 .ab {
     font-size: 14px;
-    color: #757575;
+    color: var(--color-grey);
 }
 
 .main {
@@ -125,7 +140,7 @@ li.menu-item {
     display: flex;
     justify-content: center;
     margin-top: 94px;
-    color: #212121;
+    color:var(--color-black);
     font-size: 36px;
 }
 
@@ -142,13 +157,13 @@ li.menu-item {
     display: inline-block;
     justify-content: center;
     text-align: center;
-    background: #F5F4FA;
+    background: var(--color-34er);
 }
 
 .cvc {
     font-size: 36px;
     text-align: center;
-    color: #212121;
+    color:var(--color-black);
 }
 
 img {
@@ -164,21 +179,21 @@ table {
 }
 
 th {
-    background-color: white;
-    color: #212121;
+    background-color:var(--color-white);
+    color:var(--color-black);
     font-size: 16px;
 
 }
 
 .ivct {
-    color: #757575;
+    color: var(--color-grey);
 
 }
 
 .footer {
     width: 1600px;
     height: 252px;
-    background: #2F303A;
+    background: var(--color-2er);
 }
 
 .c3 {
@@ -193,16 +208,16 @@ th {
     font-size: 26px;
 }
 .logo5 {
-    color: white;
+    color: var(--color-white);
     font-size: 26px;
 }
 .ryt{
 font-size: 14px;
- color: #FFFFFF;
+ color:var(--color-white);
 
 }
 .tyu{
     font-size: 14px;
-    color: #FFFFFF99;
+    color: var(--color-grey);
 
 }
