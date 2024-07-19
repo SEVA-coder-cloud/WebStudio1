@@ -1,3 +1,8 @@
+
+:root {
+    --logo-color-blue: #2196F3;
+}
+
 body {
     margin: 0px;
 }
@@ -24,7 +29,7 @@ body {
 }
 
 .logo1 {
-    color: #2196F3;
+    color:var(--logo-color-blue);
     font-size: 26px;
     margin-top: -8px;
 }
@@ -184,7 +189,7 @@ th {
 }
 
 .logo4 {
-    color: #2196F3;
+    color:var(--logo-color-blue);
     font-size: 26px;
 }
 .logo5 {
