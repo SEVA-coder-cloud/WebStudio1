@@ -1,4 +1,5 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 :root {
     --logo-color-blue: #2196F3;
 }
@@ -17,10 +18,12 @@
 :root {
     --color-34er: #F5F4FA;
 }
+   
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+    }
 
-body {
-    margin: 0px;
-}
 
 .header {
     margin-left: 215px;
@@ -47,17 +50,25 @@ body {
     color:var(--logo-color-blue);
     font-size: 26px;
     margin-top: -8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
 }
 
 .logo2 {
     color:var(--color-black);
     font-size: 26px;
     margin-top: -8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.menu{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .menu a {
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    
+  text-decoration: none;
     font-size: 14px;
     color:var(--color-black);
     left: 453px;
@@ -78,13 +89,18 @@ li.menu-item {
 }
 
 .a1 {
-    color:var(--logo-color-blue);
+    font-weight: 500;
+    color:var(--color-grey);
     text-decoration: none;
     margin-right: 32px;
     font-size: 14px;
-}
 
+}
+.a1:hover{
+    color:var(--logo-color-blue); 
+}
 .tel {
+    font-weight: 500;
     color:var(--color-grey);
     text-decoration: none;
     font-size: 14px;
@@ -105,9 +121,11 @@ li.menu-item {
     line-height: 45px;
     font-size: 44px;
     color:var(--color-white);
+    font-weight: 900;
 }
 
 .t9999 {
+    font-weight: 700;
     text-align: center;
     display: inline-block;
     width: 216px;
@@ -121,11 +139,13 @@ li.menu-item {
 .name {
     font-size: 14px;
     color:var(--color-black);
+    font-weight: 700;
 }
 
 .ab {
     font-size: 14px;
     color: var(--color-grey);
+    font-weight: 400;
 }
 
 .main {
@@ -137,6 +157,7 @@ li.menu-item {
 }
 
 .rrtt {
+    font-weight: 700;
     display: flex;
     justify-content: center;
     margin-top: 94px;
@@ -161,6 +182,7 @@ li.menu-item {
 }
 
 .cvc {
+    font-weight: 700;
     font-size: 36px;
     text-align: center;
     color:var(--color-black);
@@ -184,10 +206,12 @@ th {
     font-size: 16px;
 
 }
-
+.ryu{
+    font-weight: 500;
+}
 .ivct {
     color: var(--color-grey);
-
+font-weight: 400;
 }
 
 .footer {
@@ -206,10 +230,12 @@ th {
 .logo4 {
     color:var(--logo-color-blue);
     font-size: 26px;
+    font-family: 'Raleway', sans-serif;
 }
 .logo5 {
     color: var(--color-white);
     font-size: 26px;
+    font-family: 'Raleway', sans-serif;
 }
 .ryt{
 font-size: 14px;
