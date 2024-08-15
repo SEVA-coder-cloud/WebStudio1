@@ -22,6 +22,7 @@
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0px;
+      margin: 0auto;
     }
 
 
@@ -46,7 +47,7 @@
     list-style-type: none;
 }
 
-.logo1 {
+.header div:first-of-type {
     color:var(--logo-color-blue);
     font-size: 26px;
     margin-top: -8px;
@@ -54,7 +55,7 @@
       font-weight: 700;
 }
 
-.logo2 {
+.header span:first-of-type {
     color:var(--color-black);
     font-size: 26px;
     margin-top: -8px;
@@ -74,21 +75,21 @@
     left: 453px;
 }
 
-li {
+.menu li{
     display: inline;
     margin-right: 20px;
     left: 453px;
 }
 
-li.menu-item {
+ .menu li.menu-item {
     margin: 0 0 50px 0;
 }
 
-.menu a:hover {
+a:hover{
     color:var(--logo-color-blue);
 }
 
-.a1 {
+.header a:nth-of-type(1){
     font-weight: 500;
     color:var(--color-grey);
     text-decoration: none;
@@ -96,10 +97,7 @@ li.menu-item {
     font-size: 14px;
 
 }
-.a1:hover{
-    color:var(--logo-color-blue); 
-}
-.tel {
+.header span:nth-of-type(2) {
     font-weight: 500;
     color:var(--color-grey);
     text-decoration: none;
@@ -114,17 +112,17 @@ li.menu-item {
     background:var(--color-2er);
 }
 
-.big_text {
+.container div{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    line-height: 45px;
+    line-height: 1;
     font-size: 44px;
     color:var(--color-white);
     font-weight: 900;
 }
 
-.t9999 {
+.container a{
     font-weight: 700;
     text-align: center;
     display: inline-block;
@@ -136,13 +134,13 @@ li.menu-item {
     background-color:var(--logo-color-blue);
 }
 
-.name {
+.main article > h2{
     font-size: 14px;
     color:var(--color-black);
     font-weight: 700;
 }
 
-.ab {
+.main h2 ~ p{
     font-size: 14px;
     color: var(--color-grey);
     font-weight: 400;
@@ -156,7 +154,7 @@ li.menu-item {
 
 }
 
-.rrtt {
+.Doom p{
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -165,7 +163,7 @@ li.menu-item {
     font-size: 36px;
 }
 
-.fgf {
+.Doom div{
     justify-content: center;
     display: flex;
     gap: 30px;
@@ -181,7 +179,7 @@ li.menu-item {
     background: var(--color-34er);
 }
 
-.cvc {
+.containert2 p{
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -206,34 +204,34 @@ th {
     font-size: 16px;
 
 }
-.ryu{
+.containert2 samp:nth-of-type(2n+0){
     font-weight: 500;
 }
-.ivct {
+.containert2 span:nth-of-type(2n+0) {
     color: var(--color-grey);
 font-weight: 400;
 }
 
-.footer {
+.containert3 {
     width: 1600px;
     height: 252px;
     background: var(--color-2er);
 }
 
-.c3 {
+.footer {
     margin-left: 215px;
     margin-top: 60px;
     position: relative;
     display: inline-block;
 }
 
-.logo4 {
+.footer div:first-of-type {
     color:var(--logo-color-blue);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
-.logo5 {
+.footer div:first-of-type > span{
     color: var(--color-white);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
