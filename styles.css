@@ -28,6 +28,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
@@ -124,7 +126,7 @@ a:hover {
     margin-top: 32px;
     width: 1600px;
     height: 600px;
-    background: var(--color-2er);
+    background-image: url(./Imgw1w.png);
 }
 
 .container div {
@@ -280,4 +282,34 @@ img {
     margin: 0 auto ;
     width: 1600px;
     height: 2346px;
+}
+     
+
+
+
+
+
+
+
+
+
+.werder{
+    justify-content: center;
+    width: 1600px;
+    height: 80px;
+    border-bottom: 1px solid;
+     border-color: #ECECEC;
+}
+.butony{
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 81px;
+   
+}
+.butony > button{
+    width: 125px;
+    height: 38px;
+    background-color: aqua;
+    border-radius: 4px;
 }
