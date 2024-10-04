@@ -310,13 +310,15 @@ img {
 
 }
 
-.butony>button {
+.butony > button{
     width: 125px;
     height: 38px;
     background-color: rgb(245, 244, 250);
     border-radius: 4px;
 }
-
+.butony > button:hover{
+    background-color: aqua;
+}
 .bodve {
     margin-top: 50px;
     margin-bottom: 60px;
