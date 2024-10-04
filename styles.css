@@ -28,8 +28,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto !important;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .main {
@@ -174,7 +173,7 @@ a:hover {
     display: flex;
     margin-top: 94px;
     gap: 30px;
-   
+
 
 }
 
@@ -276,14 +275,14 @@ img {
     color: var(--color-grey);
     font-weight: 400;
 }
-.contenere{
+
+.contenere {
     display: flex;
     flex-direction: column;
-    margin: 0 auto ;
+    margin: 0 auto;
     width: 1600px;
     height: 2346px;
 }
-     
 
 
 
@@ -293,23 +292,61 @@ img {
 
 
 
-.werder{
+
+.werder {
+    display: flex;
     justify-content: center;
     width: 1600px;
     height: 80px;
     border-bottom: 1px solid;
-     border-color: #ECECEC;
+    border-color: #ECECEC;
 }
-.butony{
+
+.butony {
     margin-top: 96px;
     display: flex;
     justify-content: center;
-    gap: 81px;
-   
+    gap: 8px;
+
 }
-.butony > button{
+
+.butony>button {
     width: 125px;
     height: 38px;
-    background-color: aqua;
+    background-color: rgb(245, 244, 250);
     border-radius: 4px;
 }
+
+.bodve {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+.bodve > div{
+    width: 370px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.bodve > div > img{
+    width: 370px;
+    height: 294px;
+}
+.bodve > div > p{
+    padding-left: 8px;
+}
+.bodve > div > p:last-child{
+    color: #757575;
+}
+.bogy{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
