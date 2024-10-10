@@ -126,6 +126,7 @@ a:hover {
     width: 1600px;
     height: 600px;
     background-image: url(./Imgw1w.png);
+    margin-bottom: 60px;
 }
 
 .container div {
@@ -161,7 +162,15 @@ a:hover {
     color: var(--color-black);
     font-weight: 700;
 }
+.main article{
+    width: 270px;
+    height: 248px;
 
+}
+.main article > img{
+    width: 270px;
+    height: 120px;
+}
 .main h2~p {
     font-size: 14px;
     color: var(--color-grey);
@@ -171,7 +180,7 @@ a:hover {
 .main {
     justify-content: center;
     display: flex;
-    margin-top: 94px;
+    margin-top: 100px;
     gap: 30px;
 
 
@@ -333,7 +342,7 @@ img {
     height: 404px;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    border: 1px solid rgb(238, 238, 238);
 }
 .bodve > div > img{
     width: 370px;
@@ -349,6 +358,5 @@ img {
 display: flex;
 justify-content: center;
 flex-direction: column;
-
 }
 
