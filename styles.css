@@ -360,3 +360,40 @@ justify-content: center;
 flex-direction: column;
 }
 
+.containert4{
+width: 1600px;
+height: 372px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.a{
+width: 170px;
+height: 92px;  
+margin-right: px;
+}
+.b{
+    width: 170px;
+height: 92px;  
+margin-right: px;
+}
+.a:hover{
+    background: #2196F3;
+    transition: all .5s;
+    cursor: pointer;
+}
+.b:hover{
+    background: #2196F3;
+    transition: all .5s;
+    cursor: pointer;
+}
+.evrclt{
+    font-size: 36px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    margin-bottom: 200px;
+    margin-left: 90px;
+}
