@@ -162,15 +162,18 @@ a:hover {
     color: var(--color-black);
     font-weight: 700;
 }
-.main article{
+
+.main article {
     width: 270px;
     height: 248px;
 
 }
-.main article > img{
+
+.main article>img {
     width: 270px;
     height: 120px;
 }
+
 .main h2~p {
     font-size: 14px;
     color: var(--color-grey);
@@ -200,6 +203,51 @@ a:hover {
     display: flex;
     gap: 30px;
 }
+img {
+    Width: 370px;
+    Height: 294px;
+}
+.op1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:190px;
+    position: absolute;
+    height: 70px;
+    width:370px ;
+    background: #1E252B;
+    margin-left:px;
+    opacity:80%;
+    color: rgba(255, 255, 255, 1);
+}
+.op2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:190px;
+    position: absolute;
+    height: 70px;
+    width:270px ;
+    background: #1E252B;
+    margin-left:px;
+    opacity:80%;
+    color: rgba(255, 255, 255, 1);
+}
+.op3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:190px;
+    position: absolute;
+    height: 70px;
+    width:270px ;
+    background: #1E252B;
+    margin-left:px;
+    opacity:80%;
+    color: rgba(255, 255, 255, 1);
+}
+
+
 
 .containert2 {
     margin-top: 94px;
@@ -218,10 +266,7 @@ a:hover {
     color: var(--color-black);
 }
 
-img {
-    Width: 270px;
-    Height: 260px;
-}
+
 
 .containert2 table {
     border: none;
@@ -319,15 +364,17 @@ img {
 
 }
 
-.butony > button{
+.butony>button {
     width: 125px;
     height: 38px;
     background-color: rgb(245, 244, 250);
     border-radius: 4px;
 }
-.butony > button:hover{
+
+.butony>button:hover {
     background-color: aqua;
 }
+
 .bodve {
     margin-top: 50px;
     margin-bottom: 60px;
@@ -337,59 +384,68 @@ img {
     gap: 30px;
 
 }
-.bodve > div{
+
+.bodve>div {
     width: 370px;
     height: 404px;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(238, 238, 238);
 }
-.bodve > div > img{
+
+.bodve>div>img {
     width: 370px;
     height: 294px;
 }
-.bodve > div > p{
+
+.bodve>div>p {
     padding-left: 8px;
 }
-.bodve > div > p:last-child{
+
+.bodve>div>p:last-child {
     color: #757575;
 }
-.bogy{
-display: flex;
-justify-content: center;
-flex-direction: column;
+
+.bogy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.containert4{
-width: 1600px;
-height: 372px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 30px;
+.containert4 {
+    width: 1600px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.a{
-width: 170px;
-height: 92px;  
-margin-right: px;
-}
-.b{
+.a {
     width: 170px;
-height: 92px;  
-margin-right: px;
+    height: 92px;
+    margin-right: px;
 }
-.a:hover{
+
+.b {
+    width: 170px;
+    height: 92px;
+    margin-right: px;
+}
+
+.a:hover {
     background: #2196F3;
     transition: all .5s;
     cursor: pointer;
 }
-.b:hover{
+
+.b:hover {
     background: #2196F3;
     transition: all .5s;
     cursor: pointer;
 }
-.evrclt{
+
+.evrclt {
     font-size: 36px;
     text-align: center;
     white-space: nowrap;
@@ -397,7 +453,8 @@ margin-right: px;
     margin-bottom: 200px;
     margin-left: 90px;
 }
-.aasvg{
+
+.aasvg {
     width: 44px;
     height: 44px;
     display: flex;
@@ -406,47 +463,66 @@ margin-right: px;
     border-radius: 50%;
     gap: 10px;
 }
+
 .aasvg:hover {
     background-color: aqua;
     top: -1px;
     transition: all .5s;
     color: #1E252B;
-  }
-.aasvg>img{
+}
+
+.aasvg>img {
     width: 20px;
     height: 20px;
 }
-.jdrf{
+
+.jdrf {
     display: flex;
     margin-left: 45px;
     margin-top: 16px;
 }
-.jdrf1{
- 
+
+.jdrf1 {
+    position: absolute;
     display: flex;
     align-items: flex-end;
     width: 206px;
     height: 80px;
-    margin-left: 516px;
-   
+    margin-bottom: 100px;
+    margin-left: 506px;
 }
-.aasvg2>img{
+
+.aasvg2>img {
     width: 20px;
     height: 20px;
 }
-.aasvg2{
-    width: 44px;
-    height: 44px;
+
+.aasvg2 {
+    margin-bottom: -40px;
+    width: 34px;
+    height: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    gap: 10px;
+    gap: -10px;
     background: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
 }
-.jdrf1>p{
-    
-font-size: 14px;
-color: rgba(255, 255, 255, 1);
-position: absolute;
+
+.jdrf1>p {
+    display: flex;
+    align-items: flex-start;
+    position: absolute !important;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.aasvg2:hover {
+    background-color: aqua;
+    top: -1px;
+    transition: all .5s;
+    color: #1E252B;
 }
