@@ -211,7 +211,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:190px;
+    margin-top:  224px;
     position: absolute;
     height: 70px;
     width:370px ;
@@ -224,12 +224,12 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:190px;
+    margin-top:  224px;
     position: absolute;
     height: 70px;
-    width:270px ;
+    width:370px ;
     background: #1E252B;
-    margin-left:px;
+    margin-left:799px;
     opacity:80%;
     color: rgba(255, 255, 255, 1);
 }
@@ -237,14 +237,15 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:190px;
+    margin-top:  224px;
     position: absolute;
     height: 70px;
-    width:270px ;
+    width:370px ;
     background: #1E252B;
     margin-left:px;
     opacity:80%;
     color: rgba(255, 255, 255, 1);
+    margin-left: -799px;
 }
 
 
@@ -478,7 +479,7 @@ img {
 
 .jdrf {
     display: flex;
-    margin-left: 45px;
+    margin-left: 90px;
     margin-top: 16px;
 }
 
