@@ -203,47 +203,51 @@ a:hover {
     display: flex;
     gap: 30px;
 }
+
 img {
     Width: 370px;
     Height: 294px;
 }
+
 .op1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:  224px;
+    margin-top: 224px;
     position: absolute;
     height: 70px;
-    width:370px ;
+    width: 370px;
     background: #1E252B;
-    margin-left:px;
-    opacity:80%;
+    margin-left: px;
+    opacity: 80%;
     color: rgba(255, 255, 255, 1);
 }
+
 .op2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:  224px;
+    margin-top: 224px;
     position: absolute;
     height: 70px;
-    width:370px ;
+    width: 370px;
     background: #1E252B;
-    margin-left:799px;
-    opacity:80%;
+    margin-left: 799px;
+    opacity: 80%;
     color: rgba(255, 255, 255, 1);
 }
+
 .op3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:  224px;
+    margin-top: 224px;
     position: absolute;
     height: 70px;
-    width:370px ;
+    width: 370px;
     background: #1E252B;
-    margin-left:px;
-    opacity:80%;
+    margin-left: px;
+    opacity: 80%;
     color: rgba(255, 255, 255, 1);
     margin-left: -799px;
 }
@@ -526,4 +530,54 @@ img {
     top: -1px;
     transition: all .5s;
     color: #1E252B;
+}
+
+.e-input {
+    position: absolute;
+    width: 570px;
+    height: 86px;
+display: flex;
+margin-left: 815px;
+margin-top: 72px;
+
+}
+.e-input>div{
+width: 358px;
+height: 50px;
+background: rgba(47, 48, 58, 1);
+border-radius: 5px;
+border: rgba(255, 255, 255, 0.3) 1px solid;
+}
+.e-input>div>input{
+    margin-left: 16px;
+    margin-top: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(47, 48, 58, 1);
+    }
+
+.e-input>button {
+    width:200px;
+    height: 50px;
+    border-radius: 4px;
+    background: rgba(33, 150, 243, 1);
+    border:none ;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.e-input>button>img{
+    height: 24px;
+    width: 24px;
+}
+.e-input>button>p{
+    font-size: 16px;
+color: rgba(255, 255, 255, 1);
+}
+.e-input>p{
+    white-space: nowrap;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    
 }
